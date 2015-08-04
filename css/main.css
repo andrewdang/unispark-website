@@ -1,0 +1,218 @@
+/************************************
+GENERAL
+************************************/
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+p {
+  width: 75%;
+  margin: auto;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+
+.header {
+  color: white;
+}
+
+
+.btn {
+  font-size: 1.25em;
+  font-weight: bold;
+  border: 2px solid #262626;
+  border-radius: 0;
+}
+
+.btn:hover {
+  -webkit-transition: background .3s;
+  transition: background .3s;
+  color: #fff;
+  border: 2px solid #222;
+  background-color: #222;
+}
+
+nav {
+  font-size: 1.1em;
+}
+
+.service-text {
+  padding: 0 4em 2em 4em;
+}
+
+.content-text
+.content-text2, {
+  width: 250px;
+  height: 250px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.content-text2 {
+  height: 340px;
+}
+
+.front-section {
+  min-height: 100%;
+  padding-top: 5em;
+  padding-bottom: 3em;
+  background: #fff;
+}
+
+.about-section,
+.partners-section,
+.contact-section,
+.products-section,
+.services-section {
+  min-height: 100%;
+  padding-top: 4em;
+  padding-bottom: 1.5em;
+  background: #373737;
+}
+
+.products-section,
+.services-section {
+  background: #eee;
+}
+
+.contact-section {
+  min-height: 70%;
+}
+
+/************************************
+FRONT PAGE
+*************************************/
+
+.logo {
+  padding-top: 2.5%;
+}
+
+.keywords,
+.keywords li {
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/************************************
+PRODUCTS & SERVICES
+*************************************/
+
+.pictures {
+  margin-bottom: 2px;
+}
+
+/************************************
+ABOUT & PARTNERS
+*************************************/
+
+.about {
+  font-size: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.name {
+  height: 100%;
+  color: #a7a7a7;
+}
+
+.title,
+.title2 {
+  font-size: 16px;
+  font-style: italic;
+  width: 210px;
+  height: 70px;
+  margin-top: 15px;
+  padding-right: 5px;
+  padding-left: 5px;
+  color: #f1f1f1;
+}
+
+.title2 {
+  margin-bottom: 10px;
+}
+
+.darken img {
+  -webkit-transition: all .4s linear;
+  -moz-transition: all .4s linear;
+  -ms-transition: all .4s linear;
+  -o-transition: all .4s linear;
+  transition: all .4s linear;
+}
+
+a.darken:hover img {
+  opacity: .5;
+}
+
+
+/****** CONTACT & FORM ********/
+
+.form-group {
+  padding-top: 1em;
+}
+
+input[type='text'],
+textarea,
+#message {
+  font-size: 1.25em;
+  border: 2px solid #262626 !important;
+  border-radius: 0;
+  outline: none;
+  box-shadow: none !important;
+}
+
+#contact .form-group {
+  margin-bottom: -2px;
+}
+
+#contact .form-group input,
+#contact .form-group textarea {
+  padding: 20px;
+}
+
+#contact .form-group input.form-control {
+  height: auto;
+}
+
+#contact .form-group textarea.form-control {
+  height: 236px;
+}
+
+/********* FOOTER **********/
+
+footer a,
+footer a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+footer {
+  padding: 1.5em 0 1.5em 0;
+  background-color: #222;
+}
+
+.copyright {
+  font-size: 16px;
+  color: #eee;
+}
+
+.icon {
+  padding: 1em 3px 0 3px;
+}
